@@ -130,30 +130,11 @@ function RelicPopup({ relic, functions }: RelicPopupProps) {
                         >
                             {piece.name}
                         </Typography>
-                        <Typography variant="subtitle1" sx={{ fontFamily: `${theme.font.styled.family}`, color: `${theme.text.color}`, mb: "20px" }}>
-                            <i>{formatPieceType(piece.type)}</i>
-                        </Typography>
-                        <img src={`${process.env.REACT_APP_URL}/relics/sets/${name.split(" ").join("_")}/${piece.type}.png`}
+                        <img src={`https://i.imgur.com/7uUH82t.jpeg`}
                             alt={piece.name}
                             style={artifactImageStyle}
                             onError={ErrorLoadingImage}
                         />
-                        {
-                            setEffect.twoPiece &&
-                            <Typography variant="subtitle1" sx={{ color: `${theme.text.color}` }}>
-                                <b>2-Piece Set:</b> {setEffect.twoPiece}
-                            </Typography>
-                        }
-                        {
-                            setEffect.fourPiece &&
-                            <Typography variant="subtitle1" sx={{ color: `${theme.text.color}` }}>
-                                <b>4-Piece Set:</b> {setEffect.fourPiece}
-                            </Typography>
-                        }
-                        <br />
-                        <Typography variant="subtitle2" sx={{ color: theme.text.colorAlt }}>
-                            <i>{piece.description}</i>
-                        </Typography>
                     </TabPanel>
                 ))
             }
