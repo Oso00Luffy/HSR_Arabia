@@ -38,7 +38,7 @@ function CharacterFilters(props: {
                 tag: "element",
                 component:
                     <Grid container spacing={1}>
-                        {["Physical", "Fire", "Ice", "Lightning", "Wind", "Quantum", "Imaginary"].map((element, index) => <FilterButton key={index} tag={element} img={`elements/Element_${element}`} active={characterFilters.element.includes(element)} onClick={() => dispatch(setElement(element))} />)}
+                        {["فيزيكال", "النار", "الجليد", "البرق", "الهواء", "الكم", "الوهم"].map((element, index) => <FilterButton key={index} tag={element} img={`elements/Element_${element}`} active={characterFilters.element.includes(element)} onClick={() => dispatch(setElement(element))} />)}
                     </Grid>
             },
             {
@@ -46,7 +46,7 @@ function CharacterFilters(props: {
                 tag: "path",
                 component:
                     <Grid container spacing={1}>
-                        {["Destruction", "Hunt", "Erudition", "Harmony", "Nihility", "Preservation", "Abundance"].map((path, index) => <FilterButton key={index} tag={path} img={`paths/The_${path}`} active={characterFilters.path.includes(path)} onClick={() => dispatch(setPath(path))} />)}
+                        {["الدمار", "الصيد", "المعرفة", "التناغم", "العدم", "الحفظ", "الوفرة"].map((path, index) => <FilterButton key={index} tag={path} img={`paths/The_${path}`} active={characterFilters.path.includes(path)} onClick={() => dispatch(setPath(path))} />)}
                     </Grid>
             },
             {

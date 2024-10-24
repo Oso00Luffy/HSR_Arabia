@@ -45,7 +45,7 @@ function BannerArchive(props: any) {
                         textDecoration: "none",
                     }}
                 >
-                    Banner Archive
+                    آرشيف البنرات
                 </Typography>
             </Box>
             <RadioGroup
@@ -61,7 +61,7 @@ function BannerArchive(props: any) {
                     control={<Radio size="small" sx={{ color: `${theme.text.color}` }} />}
                     label={
                         <Typography sx={{ fontFamily: `${theme.font.styled.family}`, fontSize: "13.5px", color: `${theme.text.color}` }}>
-                            Character Event Wish
+                            بنر الشخصيات
                         </Typography>
                     }
                 />
@@ -70,7 +70,7 @@ function BannerArchive(props: any) {
                     control={<Radio size="small" sx={{ color: `${theme.text.color}` }} />}
                     label={
                         <Typography sx={{ fontFamily: `${theme.font.styled.family}`, fontSize: "13.5px", color: `${theme.text.color}` }}>
-                            Weapon Event Wish
+                            بنر الأسلحة
                         </Typography>
                     }
                 />
@@ -87,7 +87,7 @@ function BannerArchive(props: any) {
                                     mb: "20px"
                                 }}
                             >
-                                Character Banner
+                                بنر الشخصيات
                             </Typography>
                             <BannerList banners={banners.characterBanners} type="character" />
                         </Grid>
@@ -100,7 +100,7 @@ function BannerArchive(props: any) {
                                     mb: "20px"
                                 }}
                             >
-                                Light Cone Banner
+                                بنر اللايت كونز
                             </Typography>
                             <BannerList banners={banners.lightconeBanners} type="lightcone" />
                         </Grid>

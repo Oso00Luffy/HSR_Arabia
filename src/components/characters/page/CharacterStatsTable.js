@@ -25,32 +25,32 @@ const CharacterStatsTable = (props) => {
                     <StyledTableRows>
                         <StyledTableCell>
                             <Typography>
-                                Level
+                                المستوى
                             </Typography>
                         </StyledTableCell>
                         <StyledTableCell>
                             <Typography>
-                                HP
+                                نقاط الصحة
                             </Typography>
                         </StyledTableCell>
                         <StyledTableCell>
                             <Typography>
-                                ATK
+                                نقاط الهجوم
                             </Typography>
                         </StyledTableCell>
                         <StyledTableCell>
                             <Typography>
-                                DEF
+                                نقاط الدفاع
                             </Typography>
                         </StyledTableCell>
                         <StyledTableCell>
                             <Typography>
-                                SPD
+                                السرعة
                             </Typography>
                         </StyledTableCell>
                         <StyledTableCell>
                             <Typography>
-                                Taunt
+                                نسبة الجذب
                             </Typography>
                         </StyledTableCell>
                     </StyledTableRows>

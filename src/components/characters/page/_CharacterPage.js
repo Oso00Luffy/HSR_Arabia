@@ -31,10 +31,10 @@ const CharacterPage = (props) => {
         let { name, element, path, rarity, description, faction, splashArt, release, voiceActors } = character
 
         const rows = [
-            { key: "Faction", value: faction },
-            { key: "Release", value: `${release.date !== "" ? createDateObject(release.date).date : ""} (${release.version})` },
-            { key: "Voice Actor (EN)", value: voiceActors["en"] },
-            { key: "Voice Actor (JP)", value: voiceActors["jp"] },
+            { key: "الفصيلة", value: faction },
+            { key: "الإصدار", value: `${release.date !== "" ? createDateObject(release.date).date : ""} (${release.version})` },
+            { key: "مؤدي الصوت (EN)", value: voiceActors["en"] },
+            { key: "مؤدي الصوت (JP)", value: voiceActors["jp"] },
         ]
 
         character.displayName ? document.title = `${character.displayName} ${process.env.REACT_APP_DOCUMENT_HEADER}` : document.title = `${name} ${process.env.REACT_APP_DOCUMENT_HEADER}`
