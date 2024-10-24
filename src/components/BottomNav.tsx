@@ -26,8 +26,8 @@ function BottomNav() {
             >
                 <Typography sx={{ fontSize: { xs: "8pt", sm: "10.5pt" } }}>
                     HSR-Arabic is not affiliated with HoYoverse.<br />
-                    Game contents are trademarks and copyrights of HoYoverse.
-                    .هونكاي العرب ليس تابع لهويوفيرس
+                    Game contents are trademarks and copyrights of HoYoverse.<br />
+                    .هونكاي العرب ليس تابع لهويوفيرس <br />
                     .محتويات اللعبة هي علامات تجارية وحقوق طبع ونشر لشركة هويوفيرس
                 </Typography>
                 <Box sx={{ display: { xs: "block", sm: "flex" } }}>
@@ -41,7 +41,7 @@ function BottomNav() {
                         }}
                     />
                     <Box sx={{ display: "flex" }}>
-                        {/* <Box
+                         <Box
                             sx={{
                                 textAlign: "center",
                                 alignItems: "center",
@@ -67,7 +67,7 @@ function BottomNav() {
                                 mx: { xs: "10px", sm: "25px" },
                                 my: 0
                             }}
-                        /> */}
+                        /> 
                         <Box
                             sx={{
                                 textAlign: "center",
