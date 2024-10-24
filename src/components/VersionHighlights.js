@@ -66,7 +66,7 @@ function VersionHighlights(props) {
                     }}
                 >
                     <Typography variant="h6" component="p" sx={{ fontWeight: "bold", ml: "5px", lineHeight: "45px" }}>
-                        {`Version Highlights`}
+                        {`محتوى التحديث`}
                     </Typography>
                     <Box sx={{ display: "flex" }}>
                         {
@@ -127,7 +127,7 @@ function VersionHighlights(props) {
                                     avatar={<img src={`${process.env.REACT_APP_URL}/icons/Character.png`} alt="New Characters" style={{ width: "40px", marginRight: "-5px" }} />}
                                     title={
                                         <Typography variant="h6">
-                                            New Characters
+                                            شخصيات جديدة
                                         </Typography>
                                     }
                                     sx={{ p: 0, mb: "30px" }}
@@ -143,7 +143,7 @@ function VersionHighlights(props) {
                                             avatar={<img src={`${process.env.REACT_APP_URL}/icons/Relic.png`} alt="New Relics" style={{ width: "40px", marginRight: "-5px" }} />}
                                             title={
                                                 <Typography variant="h6">
-                                                    New Relics
+                                                    ريليكس جديدة
                                                 </Typography>
                                             }
                                             sx={{ p: 0, mb: "30px" }}

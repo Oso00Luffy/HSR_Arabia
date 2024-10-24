@@ -386,33 +386,33 @@ const linkItems = [
 
 const navItems = [
     {
-        primaryIcon: <Avatar variant="square" src={`${process.env.REACT_APP_URL}/factions/Astral_Express.png`} alt="Home" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
-        primaryText: "Home",
+        primaryIcon: <Avatar variant="square" src={`${process.env.REACT_APP_URL}/factions/Astral_Express.png`} alt="الواجهة الرئيسية" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
+        primaryText: "الصفحة الرئيسية",
         link: `${process.env.REACT_APP_BASENAME}/`
     },
     {
-        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Character.png`)} alt="Characters" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
-        primaryText: "Characters",
+        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Character.png`)} alt="الشخصيات" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
+        primaryText: "الشخصيات",
         link: `${process.env.REACT_APP_BASENAME}/characters/`
     },
     {
-        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Lightcone.png`)} alt="Light Cones" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
-        primaryText: "Light Cones",
+        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Lightcone.png`)} alt="لايت كونز" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
+        primaryText: "لايت كونز",
         link: `${process.env.REACT_APP_BASENAME}/lightcones/`
     },
     {
-        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Relic.png`)} alt="Relics" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
-        primaryText: "Relics",
+        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Relic.png`)} alt="ريليكس" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
+        primaryText: "ريليكس",
         link: `${process.env.REACT_APP_BASENAME}/relics/`
     },
     {
-        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Ascension.png`)} alt="Ascension Planner" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
-        primaryText: "Ascension Planner",
+        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Ascension.png`)} alt="مخطط البناء" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
+        primaryText: "مخطط البناء",
         link: `${process.env.REACT_APP_BASENAME}/planner/`
     },
     {
-        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Warp.png`)} alt="Banner Archive" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
-        primaryText: "Banner Archive",
+        primaryIcon: <Avatar variant="square" src={(`${process.env.REACT_APP_URL}/icons/Warp.png`)} alt="آرشيف البنرات" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
+        primaryText: "آرشيف البنرات",
         link: `${process.env.REACT_APP_BASENAME}/banners/`
     }
 ]

@@ -48,7 +48,7 @@ function BottomNav() {
                                 display: { xs: "flex", sm: "block" }
                             }}
                         >
-                            <Typography gutterBottom sx={{ fontSize: { xs: "8pt", sm: "10.5pt" } }}>GitHub:</Typography>
+                            <Typography gutterBottom sx={{ fontSize: { xs: "8pt", sm: "10.5pt" } }}>GitHub</Typography>
                             <IconButton
                                 disableRipple
                                 href="https://github.com/Oso00Luffy"
@@ -75,7 +75,7 @@ function BottomNav() {
                                 display: { xs: "flex", sm: "block" }
                             }}
                         >
-                            <Typography gutterBottom sx={{ fontSize: { xs: "8pt", sm: "10.5pt" } }}>Made with:</Typography>
+                            <Typography gutterBottom sx={{ fontSize: { xs: "8pt", sm: "10.5pt" } }}>صنع باستخدام</Typography>
                             <Box sx={{ display: "flex" }}>
                                 <IconButton
                                     disableRipple
