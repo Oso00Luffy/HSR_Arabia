@@ -177,7 +177,7 @@ function VersionHighlights(props) {
                                 avatar={<img src={`${process.env.REACT_APP_URL}/icons/Lightcone.png`} alt="New Lightcones" style={{ width: "40px", marginRight: "-5px" }} />}
                                 title={
                                     <Typography variant="h6">
-                                        New Light Cones
+                                        لايت كونز جديدة
                                     </Typography>
                                 }
                                 sx={{ p: 0, mb: "30px" }}
