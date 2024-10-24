@@ -90,43 +90,7 @@ function Nav() {
                 open={drawerOpen}
                 sx={{ [`& .MuiDrawer-paper`]: { borderRight: `1px solid ${theme.border.color}`, backgroundColor: `${theme.appbar.backgroundColor}`, pt: 2.5 } }}
             >
-                {/* Empty toolbar necessary for content to be below app bar */
-                <Toolbar>
-                {/* Leaks News Section */}
-                <Collapse in={drawerOpen} timeout="auto" unmountOnExit>
-                    <List>
-                        <ListItem>
-                            <Typography
-                                sx={{
-                                    fontFamily: "Rowdies, DIN, Roboto",
-                                    fontSize: "14pt",
-                                    fontWeight: 500,
-                                    color: `${theme.text.color}`
-                                }}
-                            >
-                                Leaks News
-                            </Typography>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemText
-                                primary="Upcoming 5-star character leaks"
-                                secondary="A mysterious 5-star character has been leaked. Stay tuned for more details!"
-                                primaryTypographyProps={{ color: `${theme.text.color}`, fontSize: "11pt", fontWeight: "bold" }}
-                                secondaryTypographyProps={{ color: `${theme.text.color}`, fontSize: "10pt" }}
-                            />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemText
-                                primary="New weapon leaks"
-                                secondary="Leaked info suggests a new signature weapon for the upcoming event. Details below."
-                                primaryTypographyProps={{ color: `${theme.text.color}`, fontSize: "11pt", fontWeight: "bold" }}
-                                secondaryTypographyProps={{ color: `${theme.text.color}`, fontSize: "10pt" }}
-                            />
-                        </ListItem>
-                    </List>
-                </Collapse>
-            </Toolbar>
-                }
+                {/* Empty toolbar necessary for content to be below app bar */}
                 <Toolbar />
                 <List>
                     {
@@ -422,7 +386,7 @@ const linkItems = [
 
 const navItems = [
     {
-        primaryIcon: <Avatar variant="square" src={`${process.env.REACT_APP_URL}/factions/Stellaron_Hunters.png`} alt="Home" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
+        primaryIcon: <Avatar variant="square" src={`${process.env.REACT_APP_URL}/factions/Astral_Express.png`} alt="Home" sx={{ width: `${iconSize}px`, height: `${iconSize}px` }} />,
         primaryText: "Home",
         link: `${process.env.REACT_APP_BASENAME}/`
     },
