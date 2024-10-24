@@ -209,7 +209,7 @@ function Nav() {
                                     </ListItemIcon>
                                 </CustomTooltip>
                                 <ListItemText
-                                    primary="Other Games"
+                                    primary="مواقع أخرى"
                                     primaryTypographyProps={{ color: `${theme.text.color}`, fontSize: "11pt" }}
                                     sx={[
                                         drawerOpen ?
