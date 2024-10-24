@@ -60,8 +60,8 @@ function Nav() {
                                         src="https://i.imgur.com/3fvh5Iq.png"
                                         alt="hsr-arabic"
                                         sx={{
-                                            height: "48px",
-                                            width: "48px"
+                                            height: "702px",
+                                            width: "1831px"
                                         }}
                                     />
                                 }
