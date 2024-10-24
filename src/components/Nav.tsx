@@ -373,14 +373,14 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== "open" 
 
 const linkItems = [
     {
-        primaryIcon: <Avatar variant="square" src="https://assets.irminsul.gg/main/game-icons/Genshin.png" alt="genshin.irminsul.gg" sx={{ width: iconSize, height: iconSize, borderRadius: "5px" }} />,
-        primaryText: "Genshin Impact",
-        link: "https://genshin.irminsul.gg/"
+        primaryIcon: <Avatar variant="square" src="https://assets.irminsul.gg/main/game-icons/Genshin.png" alt="genshin" sx={{ width: iconSize, height: iconSize, borderRadius: "5px" }} />,
+        primaryText: "Genshin Impact (TBA)",
+        link: "https://hsr-arabic.vercel.app/"
     },
     {
-        primaryIcon: <Avatar variant="square" src="https://assets.irminsul.gg/main/game-icons/WutheringWaves.png" alt="wuwa.irminsul.gg" sx={{ width: iconSize, height: iconSize, borderRadius: "5px" }} />,
-        primaryText: "Wuthering Waves",
-        link: "https://wuwa.irminsul.gg/"
+        primaryIcon: <Avatar variant="square" src="https://assets.irminsul.gg/main/game-icons/WutheringWaves.png" alt="wuwa" sx={{ width: iconSize, height: iconSize, borderRadius: "5px" }} />,
+        primaryText: "Wuthering Waves (TBA)",
+        link: "https://hsr-arabic.vercel.app/"
     }
 ]
 

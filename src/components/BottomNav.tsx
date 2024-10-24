@@ -25,8 +25,10 @@ function BottomNav() {
                 }}
             >
                 <Typography sx={{ fontSize: { xs: "8pt", sm: "10.5pt" } }}>
-                    IRMINSUL.GG is not affiliated with HoYoverse.<br />
+                    HSR-Arabic is not affiliated with HoYoverse.<br />
                     Game contents are trademarks and copyrights of HoYoverse.
+                    .هونكاي العرب ليس تابع لهويوفيرس
+                    .محتويات اللعبة هي علامات تجارية وحقوق طبع ونشر لشركة هويوفيرس
                 </Typography>
                 <Box sx={{ display: { xs: "block", sm: "flex" } }}>
                     <Divider
