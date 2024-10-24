@@ -57,11 +57,11 @@ function Nav() {
                                 avatar={
                                     <Avatar
                                         variant="square"
-                                        src="https://i.imgur.com/3fvh5Iq.png"
+                                        src="https://i.imgur.com/GTpguvq.png"
                                         alt="hsr-arabic"
                                         sx={{
-                                            height: "702px",
-                                            width: "1831px"
+                                            height: "48px",
+                                            width: "100px"
                                         }}
                                     />
                                 }
