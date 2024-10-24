@@ -69,12 +69,12 @@ const LightconeList = (props) => {
 export default LightconeList;
 
 const headCells = [
-    { id: "name", label: "Name" },
-    { id: "rarity", label: "Rarity" },
-    { id: "path", label: "Path" },
-    { id: "hp", label: "HP" },
-    { id: "atk", label: "ATK" },
-    { id: "def", label: "DEF" },
+    { id: "name", label: "الاسم" },
+    { id: "rarity", label: "الندرة" },
+    { id: "path", label: "المسار" },
+    { id: "hp", label: "نقاط الصحة" },
+    { id: "atk", label: "نقاط الهجوم" },
+    { id: "def", label: "نقاط الدفاع" },
 ];
 
 const createData = (name, displayName, rarity, path, hp, atk, def) => {

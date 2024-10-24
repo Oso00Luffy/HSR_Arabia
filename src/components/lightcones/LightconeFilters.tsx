@@ -38,7 +38,7 @@ function LightconeFilters(props: {
                 tag: "path",
                 component:
                     <Grid container spacing={1}>
-                        {["Destruction", "Hunt", "Erudition", "Harmony", "Nihility", "Preservation", "Abundance"].map((path, index) => <FilterButton key={index} tag={path} img={`paths/The_${path}`} active={lightconeFilters.path.includes(path)} onClick={() => dispatch(setPath(path))} />)}
+                        {["الدمار", "الصيد", "المعرفة", "التناغم", "العدم", "الحفظ", "الوفرة"].map((path, index) => <FilterButton key={index} tag={path} img={`paths/The_${path}`} active={lightconeFilters.path.includes(path)} onClick={() => dispatch(setPath(path))} />)}
                     </Grid>
             },
             {

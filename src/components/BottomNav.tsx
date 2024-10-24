@@ -51,7 +51,7 @@ function BottomNav() {
                             <Typography gutterBottom sx={{ fontSize: { xs: "8pt", sm: "10.5pt" } }}>GitHub:</Typography>
                             <IconButton
                                 disableRipple
-                                href="https://github.com/bcheung98/project-stellaron"
+                                href="https://github.com/Oso00Luffy"
                                 target="_blank"
                                 color="inherit"
                                 sx={{ pr: { xs: "0px", sm: "8px" } }}

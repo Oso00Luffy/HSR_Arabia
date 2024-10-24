@@ -167,22 +167,22 @@ export default RelicPopup
 function formatPieceType(type: string) {
     switch (type) {
         case "head":
-            type = "Head"
+            type = "الخوذة"
             break
         case "hand":
-            type = "Hands"
+            type = "القفازات"
             break
         case "body":
-            type = "Body"
+            type = "الصدر"
             break
         case "feet":
-            type = "Feet"
+            type = "الأقدام"
             break
         case "orb":
-            type = "Planar Sphere"
+            type = "الكرة"
             break
         case "rope":
-            type = "Link Rope"
+            type = "الحبل"
             break
         default:
             break
