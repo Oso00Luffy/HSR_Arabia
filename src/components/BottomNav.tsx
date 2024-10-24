@@ -2,6 +2,7 @@
 import { useTheme } from "@mui/material/styles"
 import { useMediaQuery, AppBar, Toolbar, Box, Typography, Divider, IconButton, createSvgIcon } from "@mui/material"
 import GitHubIcon from "@mui/icons-material/GitHub"
+import TelegramIcon from '@mui/icons-material/Telegram'; 
 
 function BottomNav() {
 
@@ -59,6 +60,35 @@ function BottomNav() {
                                 <GitHubIcon sx={{ fontSize: { xs: 20, sm: 28 }, mt: { xs: "-2.5px", sm: 0 } }} />
                             </IconButton>
                         </Box>
+                        <Box sx={{ display: "flex" }}>
+    <Box
+        sx={{
+            textAlign: "center",
+            alignItems: "center",
+            display: { xs: "flex", sm: "block" }
+        }}
+    >
+        <Typography gutterBottom sx={{ fontSize: { xs: "8pt", sm: "10.5pt" } }}>Telegram</Typography>
+        <IconButton
+            disableRipple
+            href="https://t.me/HonkaiStarRailAR"  // Your Telegram link
+            target="_blank"
+            color="inherit"
+            sx={{ pr: { xs: "0px", sm: "8px" } }}
+        >
+            <TelegramIcon sx={{ fontSize: { xs: 20, sm: 28 }, mt: { xs: "-2.5px", sm: 0 } }} />
+        </IconButton>
+    </Box>
+    <Divider
+        orientation="vertical"
+        variant="middle"
+        flexItem
+        sx={{
+            mx: { xs: "10px", sm: "25px" },
+            my: 0
+        }}
+    />
+</Box>
                         <Divider
                             orientation="vertical"
                             variant="middle"
