@@ -7,8 +7,8 @@ export function createDateObject(date: string) {
     const formatDate = (date: string, offset: string) => `${date.split(" ").slice(0, 2).join(" ").replace(/-/g, "/")}${offset}`
 
     let dateObj
-    if (date.endsWith("UTC+8")) {
-        dateObj = new Date(formatDate(date, "+8"))
+    if (date.endsWith("UTC+3")) {
+        dateObj = new Date(formatDate(date, "+3"))
     }
     else {
         dateObj = new Date(formatDate(date, offset[0]))

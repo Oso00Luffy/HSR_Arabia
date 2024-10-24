@@ -51,14 +51,14 @@ function Nav() {
                                 <MenuOpenIcon sx={{ transform: "rotate(180deg)" }} />
                         }
                     </IconButton>
-                    <CustomTooltip title="Irminsul.GG Portal" arrow placement="right" enterDelay={250}>
-                        <ButtonBase disableRipple href="https://irminsul.gg/">
+                    <CustomTooltip title="بوابة هونكاي ستار ريل العربية" arrow placement="right" enterDelay={250}>
+                        <ButtonBase disableRipple href="https://hsr-arabic.vercel.app/">
                             <CardHeader
                                 avatar={
                                     <Avatar
                                         variant="square"
-                                        src="https://assets.irminsul.gg/main/icons/Irminsul.png"
-                                        alt="irminsul.gg"
+                                        src="https://i.imgur.com/3fvh5Iq.png"
+                                        alt="hsr-arabic"
                                         sx={{
                                             height: "48px",
                                             width: "48px"
@@ -75,7 +75,7 @@ function Nav() {
                                             color: `white`
                                         }}
                                     >
-                                        IRMINSUL.GG
+                                        هونكاي العرب
                                     </Typography>
                                 }
                                 sx={{ px: 0 }}
