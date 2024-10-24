@@ -19,7 +19,7 @@ interface CustomCardProps {
     name: string
     id?: string
     displayName?: string
-    type: "character" | "lightcone" | "relic"
+    type: "character" | "lightcone" | "relic" | "news"
     rarity?: number
     variant?: "icon" | "avatar"
     size?: string
@@ -193,7 +193,7 @@ function CustomCard({
                             }
                         </Box>
                     }
-                    <ButtonBase disableRipple href={href} target="_blank">
+                    <ButtonBase disableRipple href={href}>
                         <img
                             src={imageURL} alt={name}
                             id={`${id}-card-image`}
@@ -210,7 +210,7 @@ function CustomCard({
                             position: "relative"
                         }}
                     >
-                        <ButtonBase disableRipple href={href} target="_blank"
+                        <ButtonBase disableRipple href={href}
                             sx={{
                                 position: "absolute",
                                 bottom: "50%",

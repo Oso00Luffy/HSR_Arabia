@@ -61,7 +61,7 @@ function CurrentBanners(props: any) {
                 }}
             >
                 <Typography noWrap sx={{ fontFamily: `${theme.font.styled.family}`, fontSize: "20px", ml: "5px", lineHeight: "45px" }}>
-                    Current Banners
+                    البنرات الحالية
                 </Typography>
             </AppBar>
             <Box sx={{ p: 2 }}>
@@ -72,7 +72,7 @@ function CurrentBanners(props: any) {
                                 currentCharacterBanners.length > 0 &&
                                 <Grid size={{ xs: 12, lg: "auto" }}>
                                     <Typography sx={{ fontFamily: `${theme.font.styled.family}`, fontSize: "20px", mb: "10px" }}>
-                                        Character Event Wish
+                                        بنر الشخصيات
                                     </Typography>
                                     <Grid container spacing={0.75}>
                                         {currentCharacterBanners[0].fiveStars.map((item: string, index: number) => <CustomCard key={index} id={`${item}-currentBanner`} type="character" name={item} rarity={!isTBA(item) ? 5 : 1} disableLink={isTBA(item)} />)}
@@ -85,7 +85,7 @@ function CurrentBanners(props: any) {
                                 currentlightconeBanners.length > 0 &&
                                 <Grid size={{ xs: 12, lg: "grow" }}>
                                     <Typography sx={{ fontFamily: `${theme.font.styled.family}`, fontSize: "20px", mb: "10px" }}>
-                                        Weapon Event Wish
+                                        بنر اللايت كونز
                                     </Typography>
                                     <Grid container spacing={0.75}>
                                         {currentlightconeBanners[0].fiveStars.map((item: string, index: number) => <CustomCard key={index} id={`${item}-currentBanner`} type="lightcone" name={item} rarity={!isTBA(item) ? 5 : 1} disableLink={isTBA(item)} />)}
