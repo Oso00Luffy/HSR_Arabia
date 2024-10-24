@@ -12,7 +12,7 @@ export interface Relic {
         fourPiece?: string
     },
     pieces: {
-        type: "head" | "hand" | "body" | "feet" | "orb" | "rope",
+        type: "الرأس" | "القفازات" | "الصدر" | "الأقدام" | "الكرة" | "الحبل",
         name: string,
         description: string
     }[],
