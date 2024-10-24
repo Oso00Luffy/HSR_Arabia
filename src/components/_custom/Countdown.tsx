@@ -47,14 +47,14 @@ function Countdown(props: { date: { obj: Date, date: string, time: string } }) {
             {
                 timeRemaining > 0 ?
                     <React.Fragment>
-                        {`ينتهي بعد `}
+                        {`Ends in `}
                         <CustomTooltip title={`${props.date.date} ${props.date.time}`} arrow placement="bottom">
                             <span style={{ textDecoration: "underline dotted", cursor: "help" }}>{countdownArr.join(" ")}</span>
                         </CustomTooltip>
                     </React.Fragment>
                     :
                     <React.Fragment>
-                        Banner has ended
+                        لقد انتهى وقت البنر
                     </React.Fragment>
             }
         </Typography>
