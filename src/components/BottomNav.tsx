@@ -60,6 +60,15 @@ function BottomNav() {
                                 <GitHubIcon sx={{ fontSize: { xs: 20, sm: 28 }, mt: { xs: "-2.5px", sm: 0 } }} />
                             </IconButton>
                         </Box>
+                        <Divider
+                        orientation={!matches ? "vertical" : "horizontal"}
+                        variant="middle"
+                        flexItem
+                        sx={{
+                            mx: { xs: 0, sm: "25px" },
+                            my: { xs: "10px", sm: 0 }
+                        }}
+                    />
                         <Box sx={{ display: "flex" }}>
     <Box
         sx={{
