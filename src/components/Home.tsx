@@ -1,6 +1,7 @@
 // Component imports
 import CurrentBanners from "./banners/CurrentBanners"
 import VersionHighlights from "./VersionHighlights"
+import { Analytics } from "@vercel/analytics/react"
 
 // MUI imports
 import { Box } from "@mui/material"

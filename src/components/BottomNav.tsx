@@ -79,15 +79,6 @@ function BottomNav() {
             <TelegramIcon sx={{ fontSize: { xs: 20, sm: 28 }, mt: { xs: "-2.5px", sm: 0 } }} />
         </IconButton>
     </Box>
-    <Divider
-        orientation="vertical"
-        variant="middle"
-        flexItem
-        sx={{
-            mx: { xs: "10px", sm: "25px" },
-            my: 0
-        }}
-    />
 </Box>
                         <Divider
                             orientation="vertical"
