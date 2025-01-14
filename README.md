@@ -1,7 +1,6 @@
-# **[hsr.Irminsul.GG](https://hsr.irminsul.gg/)**
+# **[hsr.arabic](https://hsr-arabic.vercel.app/)**
 
-The Honkai: Star Rail branch of [Irminsul.GG](https://irminsul.gg/)
-
+The Honkai: Star Rail Library
 ## **Current Features**
 
 - Character browser
