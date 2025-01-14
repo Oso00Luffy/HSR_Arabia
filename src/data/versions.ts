@@ -1,5 +1,7 @@
 // MAKE SURE TO CHANGE THIS EVERY UPDATE!
 export const updates = [
+    { version: "3.0", name: "Paean of Era Nova" },
+    { version: "2.7", name: "A New Venture on the Eighth Dawn" },
     { version: "2.6", name: "Annals of Pinecany's Mappou Age" },
     { version: "2.5", name: "Flying Aureus Shot to Lupine Rue" },
     { version: "2.4", name: "Finest Duel Under the Pristine Blue" },
@@ -13,5 +15,5 @@ export const updates = [
     { version: "1.3", name: "Celestial Eyes Above Mortal Ruins" },
     { version: "1.2", name: "Even Immortality Ends" },
     { version: "1.1", name: "Galactic Roaming" },
-    { version: "1.0", name: "The Rail Unto the Stars" }
-]
+    { version: "1.0", name: "The Rail Unto the Stars" },
+];

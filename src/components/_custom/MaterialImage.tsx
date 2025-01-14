@@ -1,82 +1,86 @@
+import { CSSProperties } from "react";
+
+// Component imports
+import Image from "./Image";
+import { TextStyled } from "styled/StyledTypography";
+
 // MUI imports
-import { useTheme } from "@mui/material/styles"
-import { Box, Card, SxProps, Typography } from "@mui/material"
+import { useTheme, useMediaQuery, Box, Card } from "@mui/material";
 
 // Helper imports
-import { CustomTooltip } from "./CustomTooltip"
-import ErrorLoadingImage from "../../helpers/ErrorLoadingImage"
+import { pxToInt } from "helpers/utils";
+
+// Type imports
+import { Rarity } from "types/_common";
 
 interface MaterialImageProps {
-    name: string,
-    rarity: string | number | undefined,
-    cost: string | number,
-    img: string | undefined,
-    size?: string
+    name: string;
+    rarity: Rarity;
+    cost: number;
+    imgSrc: string;
+    size?: string;
+    labelColor?: string;
 }
 
 function MaterialImage({
     name,
-    rarity = 1,
+    rarity,
     cost,
-    img = `${process.env.REACT_APP_URL}/images/Unknown.png`,
-    size = "72px"
+    imgSrc,
+    size = "64px",
+    labelColor,
 }: MaterialImageProps) {
+    const theme = useTheme();
 
-    const theme = useTheme()
+    size = useMediaQuery(theme.breakpoints.up("sm"))
+        ? size
+        : `${pxToInt(size) - 8}px`;
 
-    const URL = `${process.env.REACT_APP_URL}/materials/${img}.png`
+    const intSize = pxToInt(size) / 4;
+    const fontSize =
+        cost.toLocaleString().length < 8
+            ? intSize - 4
+            : intSize - (cost.toLocaleString().length - 4);
 
-    const cardStyle: SxProps = {
+    const cardStyle: CSSProperties = {
         width: size,
-        height: "auto",
-        background: `rgb(25, 25, 25)`,
-        border: `1px solid ${theme.border.color}`,
-        borderRadius: "5px 15px 5px 5px",
-        containerType: "inline-size",
-        overflow: "hidden"
-    }
+        backgroundColor: theme.appbar.backgroundColor,
+    };
 
-    const cardImageStyle: React.CSSProperties = {
+    const imgStyle: CSSProperties = {
         width: size,
         height: size,
-        padding: "7.5px",
+        backgroundImage: `url(https://assets.irminsul.gg/hsr/backgrounds/Background_${rarity}_Star.png)`,
         backgroundSize: "contain",
-        backgroundImage: `url(${process.env.REACT_APP_URL}/backgrounds/Background_${rarity}_Star.png)`,
-        boxSizing: "border-box",
-    }
+        padding: "4px",
+    };
+
+    const labelStyle: CSSProperties = {
+        padding: "0px 0px 4px",
+        textAlign: "center",
+        backgroundColor: labelColor || theme.appbar.backgroundColor,
+    };
 
     return (
         <Card sx={cardStyle}>
-            <Box sx={{ height: size, overflow: "hidden" }}>
-                <CustomTooltip title={name} arrow placement="top">
-                    <img
-                        src={URL} alt={name}
-                        style={cardImageStyle}
-                        loading="lazy"
-                        onError={ErrorLoadingImage}
-                    />
-                </CustomTooltip>
-            </Box>
-            <Box
-                sx={{
-                    textAlign: "center",
-                    p: 0,
-                }}
-            >
-                <Typography
-                    gutterBottom
+            <Image
+                src={`materials/${imgSrc}`}
+                alt={name}
+                style={imgStyle}
+                tooltip={name}
+            />
+            <Box sx={labelStyle}>
+                <TextStyled
                     sx={{
-                        fontFamily: `${theme.font.styled.family}`,
-                        color: `rgb(208, 208, 208)`,
-                        fontSize: `14px`,
+                        fontSize: `${fontSize}px !important`,
+                        color: theme.appbar.color,
                     }}
                 >
-                    {cost}
-                </Typography>
+                    {cost.toLocaleString()}
+                </TextStyled>
             </Box>
         </Card>
-    )
-
+    );
 }
 
-export default MaterialImage
+export default MaterialImage;
