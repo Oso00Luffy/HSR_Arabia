@@ -42,7 +42,7 @@ import { themeList } from "themes/theme";
 import { Region, regions } from "helpers/dates";
 
 // Type imports
-import { ThemeNames } from "types/theme";
+import { ThemeNames } from "types/theme.ts";
 
 function Settings() {
     const theme = useTheme();

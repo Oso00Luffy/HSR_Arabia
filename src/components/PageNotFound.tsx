@@ -8,8 +8,8 @@ import { Text, TextStyled } from "styled/StyledTypography";
 import { useTheme, Stack, Button, getContrastRatio } from "@mui/material";
 
 function PageNotFound() {
-    const documentTitle = `Honkai: Star Rail - Irminsul.GG`;
-    const documentDesc = `The Honkai: Star Rail branch of Irminsul.GG - a database and companion website for various gacha games.`;
+    const documentTitle = `Honkai: Star Rail Library`;
+    const documentDesc = `The Honkai: Star Rail in Arabic - a database and companion website for various gacha games.`;
     document.title = documentTitle;
     document
         .querySelector('meta[property="og:title"]')
@@ -32,7 +32,7 @@ function PageNotFound() {
             />
             <TextStyled variant="h4-styled">404</TextStyled>
             <Text variant="h4">
-                The page you were looking for was not recorded in Irminsul.
+                The page you were looking for was not recorded in HSR_Arabia.
             </Text>
             <Button component={Link} to="/" variant="contained">
                 <TextStyled
