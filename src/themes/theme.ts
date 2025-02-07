@@ -20,7 +20,8 @@ export const themeList = [
 export const themeNames = themeList.map((t) => t.name);
 
 export function getTheme(name: string) {
-    let theme = themeList.find((theme) => theme.name === name)?.data || hsrTheme; // Set HSR theme as default
+    let theme =
+        themeList[themeList.findIndex((theme) => theme.name === name)].data;
     const baseThemeData = {
         palette: {
             background: {
@@ -57,8 +58,17 @@ export function getTheme(name: string) {
                                             theme.palette.info.main,
                                             theme.appbar.color
                                         ) > 3
-                                            ? "rgb(225, 225, 225)"
-                                            : "rgb(80, 80, 80)",
+                                            ? theme.appbar.color
+                                            : theme.text.contrast,
+                                    ":hover": {
+                                        color:
+                                            getContrastRatio(
+                                                theme.palette.info.main,
+                                                theme.appbar.color
+                                            ) > 3
+                                                ? "rgb(225, 225, 225)"
+                                                : "rgb(80, 80, 80)",
+                                    },
                                 },
                             },
                         },
