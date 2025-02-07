@@ -26,4 +26,4 @@ export interface Relic {
     release: Version;
 }
 
-export type RelicPiece = "head" | "hand" | "body" | "feet" | "orb" | "rope";
+export type RelicPiece = "خوذة" | "قفاز" | "صدر" | "حذاء" | "كرة" | "حبل";

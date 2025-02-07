@@ -69,7 +69,7 @@ export interface CharacterCost {
 export interface CharacterCostObject
     extends Pick<
         Character,
-        "name" | "fullName" | "rarity" | "element" | "path"
+        "الاسم" | "الاسم الكامل" | "الندرة" | "العنصر" | "المسار"
     > {
     costs: CharacterCost;
     traceIDs: string[];
@@ -83,6 +83,6 @@ export interface WeaponCost {
 }
 
 export interface WeaponCostObject
-    extends Pick<Weapon, "name" | "displayName" | "rarity" | "path"> {
+    extends Pick<Weapon, "الاسم" | "الاسم الظاهر" | "الندرة" | "المسار"> {
     costs: WeaponCost;
 }

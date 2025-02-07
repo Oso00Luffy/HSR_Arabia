@@ -23,7 +23,7 @@ export interface Character {
     stats: CharacterStats;
     materials: CharacterMaterials;
     description: string;
-    gender: "Male" | "Female" | "Adaptive";
+    gender: "ذكر" | "أنثى" | "؟؟؟";
     faction: string;
     world: World;
     keywords?: SkillKeywords;
