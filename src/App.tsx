@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { BrowserRouter } from "react-router";
 import "App.css";
-import { Analytics } from "@vercel/analytics/react";
 // Component imports
 import RouteConfig from "components/nav/RouteConfig";
 
