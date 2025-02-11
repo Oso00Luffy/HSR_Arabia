@@ -180,17 +180,17 @@ export default RelicInfo;
 function formatPieceType(type: RelicPiece) {
     switch (type) {
         case "head":
-            return "Head";
+            return "خوذة";
         case "hand":
-            return "Hands";
+            return "قفازات";
         case "body":
-            return "Body";
+            return "صدر";
         case "feet":
-            return "Feet";
+            return "حذاء";
         case "orb":
-            return "Planar Sphere";
+            return "كرة";
         case "rope":
-            return "Link Rope";
+            return "حبل";
     }
     return type;
 }
@@ -198,8 +198,8 @@ function formatPieceType(type: RelicPiece) {
 function formatSetEffectKeys(key: keyof Relic["setEffect"]) {
     switch (key) {
         case "twoPiece":
-            return "2-Piece Set";
+            return "تأثير الـ2ـقطعتين ";
         case "fourPiece":
-            return "4-Piece Set";
+            return "تأثير الـ4ـقطع";
     }
 }
