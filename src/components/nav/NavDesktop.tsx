@@ -183,7 +183,7 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                     ))}
                 </List>
                 <Divider variant="middle" />
-                <List>
+                {/* <List>
                     <Box sx={styles.listItem("_")}>
                         <StyledTooltip
                             title={!drawerOpen ? "Other Games" : null}
@@ -236,9 +236,9 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                             </Box>
                         ))}
                     </Collapse>
-                </List>
+                </List> */}
                 <Divider variant="middle" />
-                <List>
+{/*                 <List>
                     <Box sx={styles.listItem("_")}>
                         <StyledTooltip
                             title={!drawerOpen ? "Buy me a Ko-Fi" : null}
@@ -266,7 +266,7 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                             </ButtonBase>
                         </StyledTooltip>
                     </Box>
-                </List>
+                </List> */}
                 <Toolbar />
             </Drawer>
         </>
