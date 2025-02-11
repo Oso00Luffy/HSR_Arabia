@@ -216,7 +216,7 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                                     placement="right"
                                 >
                                     <ButtonBase
-                                        href={item.link}
+                                       // href={item.link}
                                         disableRipple
                                         disableTouchRipple
                                         sx={styles.listItemButton()}
