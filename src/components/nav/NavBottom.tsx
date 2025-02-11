@@ -26,13 +26,17 @@ import { selectWidth } from "reducers/settings";
 
 const bottomText = (
     <>
-        IRMINSUL.GG is not affiliated with HoYoverse.
+        Honkai Arabia is not affiliated with HoYoverse.
         <br />
         Game contents are trademarks and copyrights of HoYoverse.
+        <br />
+        .miHoYo هونكاي العرب ليست تابعة لشركة 
+        <br />
+        .miHoYo محتوى اللعبة هو علامات تجارية وحقوق نشر لشركة
     </>
 );
 
-const githubURL = "project-stellaron";
+const githubURL = "HSR_Arabia";
 
 function NavBottom() {
     const theme = useTheme();
@@ -86,7 +90,7 @@ function NavBottom() {
                             </TextStyled>
                             <IconButton
                                 disableRipple
-                                href={`https://github.com/bcheung98/${githubURL}`}
+                                href={`https://github.com/Oso00Luffy/${githubURL}`}
                                 target="_blank"
                                 rel="noopener"
                                 color="inherit"

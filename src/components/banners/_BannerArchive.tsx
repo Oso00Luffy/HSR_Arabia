@@ -14,10 +14,10 @@ import { useAppSelector } from "helpers/hooks";
 import { selectWidth } from "reducers/settings";
 
 function BannerArchive() {
-    const documentTitle = `Banner Archive ${
+    const documentTitle = `آرشيف البنر ${
         import.meta.env.VITE_DOCUMENT_TITLE
     }`;
-    const documentDesc = `A list of all Honkai: Star Rail Warps`;
+    const documentDesc = `All Honkai: Star Rail Warps`;
     document.title = documentTitle;
     document
         .querySelector('meta[property="og:title"]')
@@ -58,7 +58,7 @@ function BannerArchive() {
                 variant="h5-styled"
                 sx={{ mb: "20px", lineHeight: "36px" }}
             >
-                Banner Archive
+                الآرشيف
             </TextStyled>
             <ToggleButtons
                 buttons={buttons}
@@ -74,13 +74,13 @@ function BannerArchive() {
                 <Grid container spacing={4}>
                     <Grid size={{ xs: 12, lg: 6, xl: maxWidth }}>
                         <TextStyled variant="h6-styled" sx={{ mb: "20px" }}>
-                            Character Banner
+                            الشخصيات
                         </TextStyled>
                         {CharacterBannerList}
                     </Grid>
                     <Grid size={{ xs: 12, lg: 6, xl: maxWidth }}>
                         <TextStyled variant="h6-styled" sx={{ mb: "20px" }}>
-                            Light Cone Banner
+                            الأسلحة
                         </TextStyled>
                         {WeaponBannerList}
                     </Grid>

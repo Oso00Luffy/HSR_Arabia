@@ -110,7 +110,7 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                         </Box>
                         <Logo
                             href={
-                                location === "/" ? "https://irminsul.gg/" : "/"
+                                location === "/" ? "https://hsr-arabic.vercel.app" : "/"
                             }
                         />
                     </FlexBox>
@@ -202,7 +202,7 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                                 <TextStyled
                                     sx={styles.listItemText(drawerOpen)}
                                 >
-                                    Other Games
+                                    ألعاب إضافية
                                 </TextStyled>
                             </IconButton>
                         </StyledTooltip>
@@ -246,7 +246,7 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                             placement="right"
                         >
                             <ButtonBase
-                                href="https://ko-fi.com/bcheung"
+                                href="https://ko-fi.com/oso00luffy"
                                 target="_blank"
                                 rel="noopener"
                                 disableRipple
@@ -261,7 +261,7 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                                 <TextStyled
                                     sx={styles.listItemText(drawerOpen)}
                                 >
-                                    Buy me a Ko-Fi
+                                    اشتري لي قهوة
                                 </TextStyled>
                             </ButtonBase>
                         </StyledTooltip>

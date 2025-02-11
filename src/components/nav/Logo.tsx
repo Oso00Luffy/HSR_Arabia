@@ -19,8 +19,8 @@ function Logo({
         <RouterLink to={href}>
             <Stack direction="row" spacing={2}>
                 <Image
-                    src="https://assets.irminsul.gg/main/icons/Irminsul.png"
-                    alt="IRMINSUL.GG"
+                    src="https://i.imgur.com/8Z6LPSG.jpeg"
+                    alt="هونكاي العرب"
                     style={{ width: size, height: size }}
                 />
                 {showText && (
@@ -34,7 +34,7 @@ function Logo({
                             },
                         }}
                     >
-                        IRMINSUL.GG
+                        HONKAI AL-ARAB
                     </TextStyled>
                 )}
             </Stack>

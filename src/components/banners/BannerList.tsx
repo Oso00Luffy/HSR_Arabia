@@ -228,10 +228,10 @@ function BannerList({ type }: BannerListProps) {
                     sx={{ mt: "3px" }}
                 />
                 <TextStyled variant="body2-styled">
-                    Toggle "AND" Filter
+                    تفعيل خاصّية الجمع
                 </TextStyled>
                 <StyledTooltip
-                    title="If toggled, will filter banners that only contain all selected items."
+                    title="عند التفعيل ستظهر البنرات التي تحتوي على كل الشخصيات واللايتكونز المحددة فقط"
                     arrow
                     placement="top"
                 >

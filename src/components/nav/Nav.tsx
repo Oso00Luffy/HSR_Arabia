@@ -69,32 +69,32 @@ export interface NavItem {
 const navItems: NavItem[] = [
     {
         icon: "icons/Home",
-        text: "Home",
+        text: "الصفحة الرئيسية",
         link: "/",
     },
     {
         icon: "icons/Character",
-        text: "Characters",
+        text: "الشخصيات",
         link: "/characters/",
     },
     {
         icon: "icons/Lightcone",
-        text: "Light Cones",
+        text: "الأسلحة",
         link: "/lightcones/",
     },
     {
         icon: "icons/Relic",
-        text: "Relics",
+        text: "الريليكس",
         link: "/relics/",
     },
     {
         icon: "icons/Ascension",
-        text: "Ascension Planner",
+        text: "مخطط البناء",
         link: "/planner/",
     },
     {
         icon: "icons/Warp",
-        text: "Banner Archive",
+        text: "الآرشيف",
         link: "/banners/",
     },
 ];
