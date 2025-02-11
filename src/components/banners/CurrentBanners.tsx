@@ -5,6 +5,8 @@ import InfoCard from "custom/InfoCard";
 import Countdown from "custom/Countdown";
 import { FlexBox } from "styled/StyledBox";
 import { TextStyled } from "styled/StyledTypography";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 // MUI imports
 import { Box, Stack, LinearProgress } from "@mui/material";
@@ -205,6 +207,22 @@ function CurrentBanners() {
                             </Stack>
                         </Box>
                     )}
+                    <Box>
+                        <TextStyled variant="h6-styled" sx={{ mb: "8px" }}>
+                            التسريبات
+                        </TextStyled>
+                        <Carousel showThumbs={false} infiniteLoop autoPlay>
+                            <div>
+                                <img src="/leak_1.jpg" alt="Leak 1" />
+                            </div>
+                            <div>
+                                <img src="/leak_1.jpg" alt="Leak 2" />
+                            </div>
+                            <div>
+                                <img src="/leak_1.jpg" alt="Leak 3" />
+                            </div>
+                        </Carousel>
+                    </Box>
                 </FlexBox>
             ) : (
                 <>
