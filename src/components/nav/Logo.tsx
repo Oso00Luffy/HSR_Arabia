@@ -34,7 +34,7 @@ function Logo({
                             },
                         }}
                     >
-                        HONKAI AL-ARAB
+                        هونكاي العرب
                     </TextStyled>
                 )}
             </Stack>
