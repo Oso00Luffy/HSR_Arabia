@@ -31,12 +31,12 @@ function CharacterTable({ characters }: { characters: Character[] }) {
     };
 
     const headColumns: HeadColumn[] = [
-        { id: "fullName", label: "Name" },
-        { id: "rarity", label: "Rarity" },
-        { id: "element", label: "Combat Type" },
-        { id: "path", label: "Path" },
-        { id: "world", label: "World" },
-        { id: "id", label: "Release Date" },
+        { id: "fullName", label: "الاسم" },
+        { id: "rarity", label: "الندرة" },
+        { id: "element", label: "العنصر" },
+        { id: "path", label: "المسار" },
+        { id: "world", label: "العالم" },
+        { id: "id", label: "تاريخ الإصدار" },
     ];
 
     const rows = characters.map((char) => ({

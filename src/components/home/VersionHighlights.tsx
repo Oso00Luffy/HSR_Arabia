@@ -95,7 +95,7 @@ function VersionHighlights() {
 
     return (
         <MainContentBox
-            title="Version Highlights"
+            title="التحديثات الجديدة"
             actions={
                 <FlexBox>
                     <Box sx={{ width: "24px" }}>
@@ -148,7 +148,7 @@ function VersionHighlights() {
                                 style={iconStyle}
                             />
                             <TextStyled variant="h6-styled">
-                                New Characters
+                                شخصيات جديدة
                             </TextStyled>
                         </FlexBox>
                         <Grid container spacing={3} sx={{ px: 2 }}>
@@ -178,7 +178,7 @@ function VersionHighlights() {
                                 style={iconStyle}
                             />
                             <TextStyled variant="h6-styled">
-                                New Light Cones
+                                أسلحة جديدة
                             </TextStyled>
                         </FlexBox>
                         <Grid container spacing={3} sx={{ px: 2 }}>
@@ -207,7 +207,7 @@ function VersionHighlights() {
                                 style={iconStyle}
                             />
                             <TextStyled variant="h6-styled">
-                                New Relic Sets
+                                ريليكس جديدة
                             </TextStyled>
                         </FlexBox>
                         <Grid container spacing={3} sx={{ px: 2 }}>

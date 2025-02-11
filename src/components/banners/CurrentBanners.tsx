@@ -52,7 +52,7 @@ function CurrentBanners() {
 
     return (
         <MainContentBox
-            title="Current Banners"
+            title="البنرات الحالية"
             contentProps={{ padding: "16px" }}
         >
             {activeBanners ? (
@@ -60,7 +60,7 @@ function CurrentBanners() {
                     {currentCharacterBanners.length > 0 && (
                         <Box>
                             <TextStyled variant="h6-styled" sx={{ mb: "8px" }}>
-                                Character Banner
+                                الشخصيات
                             </TextStyled>
                             <Stack spacing={1}>
                                 {currentCharacterBanners.map(
@@ -135,7 +135,7 @@ function CurrentBanners() {
                     {currentWeaponBanners.length > 0 && (
                         <Box>
                             <TextStyled variant="h6-styled" sx={{ mb: "8px" }}>
-                                Light Cone Banner
+                                الأسلحة
                             </TextStyled>
                             <Stack spacing={1}>
                                 {currentWeaponBanners.map((banner, index) => (
@@ -213,7 +213,7 @@ function CurrentBanners() {
                     ) : (
                         <>
                             <TextStyled>
-                                There are no active banners.
+                                لا يوجد بنرات حالية الآن
                             </TextStyled>
                             <Image
                                 src="emotes/error5"

@@ -99,7 +99,7 @@ function Settings() {
 
     const settingsList = [
         {
-            label: "Theme",
+            label: "لون الموقع",
             options: (
                 <ToggleButtons
                     buttons={themeButtons}
@@ -115,7 +115,7 @@ function Settings() {
             ),
         },
         {
-            label: "Width",
+            label: "العرض",
             options: (
                 <ToggleButtons
                     buttons={widthButtons}
@@ -131,7 +131,7 @@ function Settings() {
             ),
         },
         {
-            label: "Skill Display",
+            label: "عرض المهارات",
             options: (
                 <ToggleButtons
                     buttons={skillDisplayButtons}
@@ -150,7 +150,7 @@ function Settings() {
             ),
         },
         {
-            label: "Server",
+            label: "السيرفر",
             options: (
                 <ToggleButtons
                     buttons={regionButtons}
@@ -223,7 +223,7 @@ function Settings() {
                                 <Box sx={settingsBoxStyle}>
                                     <Stack direction="row" alignItems="center">
                                         <TextStyled sx={settingsTextStyle}>
-                                            Forbidden Knowledge
+                                            معلومات غير مؤكدة
                                         </TextStyled>
                                         <IconButton
                                             onClick={toggleDropdownState}
@@ -254,19 +254,15 @@ function Settings() {
                                         }}
                                     >
                                         <Text component="span" variant="body2">
-                                            Enabling this option will allow you
-                                            to view content from the game's beta
-                                            version.
+                                            تفعيل هذا الخيار سيسمح لك بمشاهدة
+                                            المحتوى من نسخة البيتا للعبة
                                             <br />
-                                            Any information from the beta is
-                                            heavily subject to change and will
-                                            usually be incomplete and/or
-                                            inaccurate.
+                                            أي معلومات من البيتا تخضع للتغيير
+                                            بشكل كبير وعادة ما تكون غير كاملة
+                                            أو غير دقيقة
                                             <br />
-                                            Please note that updates from the
-                                            beta are not done automatically and
-                                            may differ from other websites that
-                                            you might use.
+                                            من فضلك تأكد من تحديث الصفحة
+                                            بشكل منتظم للحصول على أحدث المعلومات
                                         </Text>
                                     </Card>
                                 </Collapse>

@@ -428,7 +428,7 @@ function Search() {
                         <Stack direction="row" alignItems="center" spacing={1}>
                             <SearchIcon sx={{ color: theme.text.primary }} />
                             <TextStyled variant="body2-styled">
-                                Search...
+                                ...البحث عن
                             </TextStyled>
                         </Stack>
                     }
@@ -446,7 +446,7 @@ function Search() {
                                     px: "8px",
                                 }}
                             >
-                                <code>Ctrl+K</code>
+                                <code>زر البحث</code>
                             </TextStyled>
                         </Stack>
                     }
@@ -508,7 +508,7 @@ function Search() {
                         <Box sx={{ width: "75%" }}>
                             <SearchBar
                                 autoFocus
-                                placeholder="Search Irminsul..."
+                                placeholder="تبحث عن ماذا؟"
                                 value={searchValue}
                                 onChange={handleInputChange}
                                 textColor={theme.appbar.color}

@@ -131,7 +131,7 @@ function NavDesktop({ navItems, linkItems }: NavProps) {
                                             : theme.text.contrast,
                                 }}
                             >
-                                Back to Top
+                                العودة للأعلى
                             </Button>
                         </ScrollTopDesktop>
                         <Search />

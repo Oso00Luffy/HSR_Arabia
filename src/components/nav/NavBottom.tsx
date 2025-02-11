@@ -30,9 +30,9 @@ const bottomText = (
         <br />
         Game contents are trademarks and copyrights of HoYoverse.
         <br />
-        .miHoYo هونكاي العرب ليست تابعة لشركة 
+        .هونكاي العرب ليست تابعة لشركة ميهويو 
         <br />
-        .miHoYo محتوى اللعبة هو علامات تجارية وحقوق نشر لشركة
+        .محتوى اللعبة هو علامات تجارية وحقوق نشر لشركة ميهويو
     </>
 );
 
@@ -110,7 +110,7 @@ function NavBottom() {
                                 variant="body2-styled"
                                 sx={{ color: textColor }}
                             >
-                                Made with:
+                                صنع باستخدام
                             </TextStyled>
                             <Box>
                                 <IconButton
