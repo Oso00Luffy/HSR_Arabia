@@ -1,14 +1,6 @@
-# <img src="https://assets.irminsul.gg/main/icons/HSR.png" alt="Irminsul.GG" width="64" /> **[Honkai: Star Rail - Irminsul.GG](https://hsr.irminsul.gg/)**
+# <img src="https://github.com/Oso00Luffy/HSR_Arabia/blob/main/public/logo.png?raw=true" alt="Honkai Arabia" width="64" /> **[Honkai: Star Rail - Library](https://hsr-arabic.vercel.app/)**
 
-The Honkai: Star Rail branch of **[Irminsul.GG](https://irminsul.gg/)** - a database and companion website for various gacha games.
-
-Make sure to check out the other branches of **Irminsul.GG**:
-
-- [**Genshin Impact**](https://genshin.irminsul.gg/) ([Repo](https://github.com/bcheung98/project-irminsul))
-
-- [**Wuthering Waves**](https://wuwa.irminsul.gg/) ([Repo](https://github.com/bcheung98/project-tacetite))
-
-- [**Zenless Zone Zero**](https://zzz.irminsul.gg/) ([Repo](https://github.com/bcheung98/project-phaethon))
+The Honkai: Star Rail library, **[HSR_ARABIA](https://hsr-arabic.vercel.app)** - a database and companion website for gacha game.
 
 ## **Current Features**
 
@@ -31,5 +23,5 @@ Make sure to check out the other branches of **Irminsul.GG**:
 
 ---
 
-IRMINSUL.GG is not affiliated with HoYoverse.
+HSR_ARABIA is not affiliated with HoYoverse.
 Game contents are trademarks and copyrights of HoYoverse.
